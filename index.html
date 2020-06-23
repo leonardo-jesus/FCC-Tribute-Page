@@ -3,108 +3,123 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>FCC: Tribute Page</title>
+  <title>FCC: Product Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-  <main id="main" class="dark" class="light">
-    <!-- Light / Dark mode switch -->
-    <div id="slider-div">
-      <i class="fas fa-moon"></i>
-      <label class="switch">
-      <input id="checkbox" type="checkbox">
-      <span class="slider round"></span>
-    </label>
-      <i class="fas fa-sun"></i>
-    </div>
+  <header id="header">
+    <img src="https://image.flaticon.com/icons/svg/3043/3043907.svg" alt="" id="header-img">
+    <h1>Code Bookstore</h1>
+    <nav id="nav-bar">
+      <a href="#top" class="nav-link">Features</a>
+      <a href="#video" class="nav-link">How it Works</a>
+      <a href="#bottom" class="nav-link">Pricing</a>
+    </nav>
+  </header>
 
-    <div id="title-div">
-      <h1 id="title" class="white"> Alan Turing </h1>
-      <h2 id="subtitle"> The father of modern computer </h2>
-    </div>
-    <div id="img-div">
-      <img src="https://d1nslcd7m2225b.cloudfront.net/Pictures/2000x2000fit/4/8/6/1211486_The+Imitation+Game+2.jpg" id="image" />
-      <p id='img-caption'> A photo of the actor Benedict Cumberbatch, who interpreted the Alan Turing in the movie "The Imitation Game."</p>
-    </div>
+  <main>
+    <section id="top">
+      <h2>Enter your Email to receive Newsletter</h2>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input type="email" name="email" id="email" value="" placeholder="Email Address" required=""><br>
+        <input type="submit" value="GET STARTED" id="submit">
+      </form>
+    </section>
 
-    <div id="tribute-info">
-      <h2 id="tribute-title" class="white"> A timeline of the Alan Turing's history</h2>
-      <ul>
-        <li id="first-li" class="li-title">
-          <span class="date">23 June 1912</span>
-          <span class="li-info"> - Alan Mathison Turing was born in London </span>
-        </li>
-        <li>
-          <span class="date">1926</span>
-          <span class="li-info"> - Aged 14, he was sent to Sherbone School in Dorset</span>
-        </li>
-        <li>
-          <span class="date">1930</span>
-          <span class="li-info"> - Turing's close school friend Chistopher Marcom dies suddenly from bovine tuberculosis. So Turing renounces his religious faith and becomes an atheist</span>
-        </li>
-        <li>
-          <span class="date">1931</span>
-          <span class="li-info">- One of the most important happening with Alan Turing, he goes to study Mathematics at King's College Cambridge</span>
-        </li>
-        <li><span class="date">1935</span>
-          <span class="li-info">- Turing proves the central limit theorem in his dissertation and is made a fellow at King's at the age of just 22</span>
-        </li>
-        <li><span class="date">1936</span>
-          <span class="li-info">- Turing published his paper on Computable Numbers and an Application to the Entscheidungsproblem, which later became known as the Turing Machine</span>
-        </li>
-        <li><span class="date">1936</span>
-          <span class="li-info"> - Turing spent time at Princeton in the US studying under Alonzo Church. There he started to study cryptology as well as mathematics.</span>
-        </li>
-        <li><span class="date">1938</span>
-          <span class="li-info"> - He receive his PhD, his dissertation was about System of Logic based on ordinals and introduced original logic and relative computing</span>
-        </li>
-        <li><span class="date">1938</span>
-          <span class="li-info"> - Turing started to work part-time at the Government Code and Cypher School</span>
-        </li>
-        <li><span class="date">1941</span>
-          <span class="li-info"> - Turing admitted he was homossexual</span>
-        </li>
-        <li>
-          <span class="date">1941-1943</span>
-          <span class="li-info"> - Turing and colleagues manage to break the German Naval Enigma System. This was very helpful for the Allies during the Battle of the Atlantic</span>
-        </li>
-        <li>
-          <span class="date">1945</span>
-          <span class="li-info"> - At the end of the World War II, Turing is awarded an OBE for his services to his country</span>
-        </li>
-        <li>
-          <span class="date">1949</span>
-          <span class="li-info"> - Turing became deputy director of the Computing Laboratory at Manchester University.</span>
-        </li>
-        <li>
-          <span class="date">1952</span>
-          <span class="li-info"> - Without a powerful computer to execute his chess program. Turing played a game which he simulated the computer, taking about half an hour to perform each move</span>
-        </li>
-        <li>
-          <span class="date">January 1952</span>
-          <span class="li-info"> - Turing meets a man called Arnold Murray and invites him over to his house. Later both was sentenced, because homossexual acts was illegal in the UK</span>
-        </li>
-        <li>
-          <span class="date">08 June 1954</span>
-          <span class="li-info"> - Turing's cleaner finds him dead. It appears that Turing poisoned himself using a cyanide-laced apple</span>
-        </li>
-      </ul>
-    </div>
+    <section id="middle">
+      <div class="features-div">
+        <div class="image">
+          <img src="https://image.flaticon.com/icons/png/512/2997/2997162.png" alt="">
+        </div>
 
-    <div id="quote">
-      <p id="quote-text">"Sometimes it is the people no one imagines anything of who do the things that no one can imagine."
-      </p>
-      <p id="quote-author">- Alan Turing</p>
-    </div>
+        <div class="text">
+          <h4>Premium Books</h4>
+          <p>Our books are the most respected on the market, the best-sellers found today. </p>
+        </div>
+      </div>
 
-    <div id="link">
-      <p id="tribute-link-text">If you want to know more, you should read more about this amazing person on his <a id="tribute-link" target="_blank" href="https://pt.wikipedia.org/wiki/Alan_Turing">Wikipedia Entry</a>.</p>
-    </div>
+      <div class="features-div">
+        <div class="image">
+          <img src="https://image.flaticon.com/icons/svg/3050/3050187.svg" alt="">
+        </div>
+
+        <div class="text">
+          <h4>Fast Shipping</h4>
+          <p>We make sure you receive your book as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+        </div>
+      </div>
+
+      <div class="features-div">
+        <div class="image">
+          <img src="https://image.flaticon.com/icons/svg/2996/2996992.svg" alt="">
+        </div>
+
+        <div class="text">
+          <h4>Quality Assurance</h4>
+          <p>For every purchase you make, we will ensure there are no damages or breakdowns and we will check the book's condition.</p>
+        </div>
+      </div>
+
+      <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/M70H4M_pL4o?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+      </div>
+
+    </section>
+
+    <section id="bottom">
+      <div class="items-container">
+        <div>
+          <!-- child -->
+          <h4>CLEAN CODE</h4>
+        </div>
+        <div>
+          <!-- child -->
+          <h5>$34.99</h5>
+          <figure>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/41jEbK-jG+L._SX374_BO1,204,203,200_.jpg" alt="">
+          </figure>
+        </div>
+        <div>
+          <button>SELECT</button>
+        </div>
+      </div>
+
+      <div class="items-container">
+        <div>
+          <h4>YOU DON'T KNOW JS</h4>
+        </div>
+        <div>
+          <h5>$56.99</h5>
+          <figure>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/41WdbPkuINL._SX331_BO1,204,203,200_.jpg" alt="">
+          </figure>
+        </div>
+        <div>
+          <button>SELECT</button>
+        </div>
+      </div>
+
+      <div class="items-container">
+        <div>
+          <h4>INTRODUCTION TO ALGORITHMS</h4>
+        </div>
+        <div>
+          <h5>$26.99</h5>
+          <figure>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/41-1VkO+1lL._SY344_BO1,204,203,200_.jpg" alt="">
+          </figure>
+        </div>
+        <div>
+          <button>SELECT</button>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js'></script>
   <script src="./script.js"></script>
 </body>
 
