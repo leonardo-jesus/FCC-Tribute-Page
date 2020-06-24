@@ -27,7 +27,7 @@ This project was developed with the following technologies:
 
 ## 💻 Project
 
-The ***Tribute Page***,  is a webpage for honor *the Father of modern computer,* ***Alan Turing***, made for the course [Responsive Web Design](https://www.freecodecamp.org/learn/), with **HTML**, **CSS** and **Javascript**.
+The ***Tribute Page***, is a webpage with Switch, making possible change whole website, with the **Dark Mode** or White mode, the purpose of the project is, for honor *the Father of modern computer,* ***Alan Turing***, made for the course [Responsive Web Design](https://www.freecodecamp.org/learn/), with **HTML**, **CSS** and **Javascript**.
 
 ## 🔖 Layout
 
