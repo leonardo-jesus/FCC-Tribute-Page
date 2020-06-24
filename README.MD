@@ -14,7 +14,7 @@
 <br>
 
 <p align="center">
-  <img src="./tribute-page.gif" alt="Tribute page">
+  <img src="./tribute-page.gif" alt="Tribute page" width: "900px">
 </p>
 
 ## 🚀 Technologies
