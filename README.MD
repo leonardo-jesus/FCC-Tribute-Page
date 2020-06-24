@@ -27,7 +27,7 @@ This project was developed with the following technologies:
 
 ## 💻 Project
 
-The ***Tribute Page***, is a webpage with a Switch, making possible change whole website, to the **Dark Mode** or White mode, the purpose of the project is, for honor *the Father of modern computer,* ***Alan Turing***, made for the course [Responsive Web Design](https://www.freecodecamp.org/learn/), with **HTML**, **CSS** and **Javascript**.
+The ***Tribute Page***, is a webpage with a Switch, making possible change whole website, to the **Dark Mode** or White mode, the purpose of the project is, pay tribute to *the Father of modern computer,* ***Alan Turing***, made for the course [Responsive Web Design](https://www.freecodecamp.org/learn/), with **HTML**, **CSS** and **Javascript**.
 
 ## 🔖 Layout
 
