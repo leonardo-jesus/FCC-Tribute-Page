@@ -1,5 +1,5 @@
 <p align="center">
-	<h1 align="center">Tribute Page ✝️:</h1>
+	<h1 align="center">Tribute Page ✝️</h1>
 </p>
 
 <p align="center">
